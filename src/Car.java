@@ -1,10 +1,8 @@
 public class Car {
-    public static void Car (String[] args) {
-        Car firstCar = new Car();
-        firstCar.brand = "Lexus";
-        firstCar.model = "IS300H";
-        firstCar.year = 2015;
-        firstCar.startEngine();
-        firstCar.stopEngine();
+        String brand;
+        String model;
+        int year;
+
+        public void startEngine() { System.out.println("Wroom-wroom, the engine has started."); }
+        public void stopEngine() { System.out.println("The engine has stopped."); }
     }
-}
